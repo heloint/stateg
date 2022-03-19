@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #4d67dd, white);
+    text-align: center;
+}
+
+#articles_par{
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: inline-block;
+    background-color: #0ea3db;
+    height: 1rem;
+    padding: 0.8rem;
+    margin: 0 2rem 0;
+
+}
+.menu a{
+    font-size: 1.1rem;
+    margin:0 2rem 0;
+}
+
+.menu a:hover{background-color: #afea79;}
+
+#banner_par{
+    font-size: 2rem;
+    margin: 1rem 0 0;
+}
+
+
+.pix{
+    display: inline-block;
+    margin: 2rem 0 0 0;
+}
+
+.pix img{
+    margin:0 1rem 0;
+    height: 18rem;
+    width: 26rem;
+}

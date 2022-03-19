@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Gato.py</title>
+        <meta name="description" content="A simple HTML5 Template for new projects.">
+        <meta name="Author" content="Static Site Generator">
+
+        <link rel="stylesheet" href="../css/index_style.css">
+    </head>
+
+    <body>
+
+
+        <p id="articles_par">Articles</p>
+		<nav class="menu">
+		{% for key,value in references.items() %}
+			<a target="_blank" href="{{value}}">{{key}}</a>
+	    {% endfor %}
+        <nav>
+        
+        <p id="banner_par"><i>Cats are jerks...</i></p>
+        <div class="pix">
+            <img src="../img/jerk_cat.jpg" alt="pic1">
+            <img src="../img/jerk_cat2.jpg" alt="pic2">
+            <img src="../img/jerk_cat3.jpeg" alt="pic3">
+        </div>
+    </body>
+
+</html>

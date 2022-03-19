@@ -1,0 +1,28 @@
+body{
+	background: #afdcec;
+}
+
+.content{
+	display: inline;
+	text-align: center;
+}
+
+p{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.article {
+	margin-top: 2rem;
+}
+
+.article p{
+	text-align: justify;
+}
+
+img{
+	height: 17rem;
+	width: 50rem;
+    margin-left: 5%;
+}
+
