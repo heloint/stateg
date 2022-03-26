@@ -38,6 +38,7 @@ def get_args() -> tuple[Path, Path, bool, bool]:
 def mkdir_output(target: Path) -> Path:
   """Creates the output directory for the generated HTML files.
      Input:  -> Target path.
+     Innocent little change
      Output: -> Made 'html' dir path."""
     
   output_dir: Path = Path(f"{'/'.join(str(target).split('/')[:-1])}/html")    
