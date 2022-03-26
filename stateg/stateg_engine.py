@@ -81,10 +81,6 @@ def filter_files(posix_list: list[Path]) -> list[Path]:
   filtered_paths: list[Path] = [x for x in posix_list if x not in ignore_list]
 
   return filtered_paths
-
-
-def print_hello():
-	print("Hello World!")
 	
 def fill_template(template_path: Path, content: dict) -> str:
     """ Reads the template and fills it with the contents.
