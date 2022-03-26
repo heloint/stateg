@@ -19,7 +19,7 @@ def get_args() -> tuple[Path, Path, bool, bool]:
   parser = argparse.ArgumentParser(prog = 'stateg', description = """Converts markdown files into HTML.
                                    The output directory (as "html") will created in the same parent directory of the 'target' path.""")
 
-  parser.add_argument('target',        metavar='target',        type= str, help= 'The target directory which contains the markdown file(s).')
+  parser.add_argument('target',        metavar='target',        type= str, help= 'The target directory which contains the .md file(s).')
   parser.add_argument('template_path', metavar='template_path', type= str, help= 'Path of the HTML template to work with.')
   parser.add_argument('--ignore_files', action='store_true',               help= "When it's True, Stateg will ask which files are to be ignored.")
   parser.add_argument('--update_index', action='store_true',               help= """When it's True, Stateg will update the Hypertext References ('href') 
