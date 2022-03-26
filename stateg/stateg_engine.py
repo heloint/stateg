@@ -83,6 +83,8 @@ def filter_files(posix_list: list[Path]) -> list[Path]:
   return filtered_paths
 
 
+def print_hello():
+	print("Hello World!")
 def fill_template(template_path: Path, content: dict) -> str:
     """ Reads the template and fills it with the contents.
         - template_path: A directory path relative to main_module_name.
